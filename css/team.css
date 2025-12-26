@@ -1,0 +1,50 @@
+
+:root{
+    --wht: #F8F0E5;
+    --pink: rgb(240, 95, 95);
+    --blue: #102C57;
+    --org: #DAC0A3;
+}
+
+.team{
+    margin: 0 70px;
+    display: flex;
+}
+
+.tmem h2{
+    margin-top: 50px;
+}
+
+.tm{
+    margin-top: 33px;
+}
+
+.tmem{
+    width: 300px;
+    height: 500px;
+    margin: 31px;
+    border-radius: 5px;
+    color: var(--blue);
+    background-color: var(--wht);
+    box-shadow: 10px 10px rgb(114, 112, 112);
+    text-align: center;
+    border: 1px solid var(--blue);
+    padding: 10px 0;
+}
+
+.tmem img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+h1{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--org);
+    padding: 1rem;
+    font-size: 3.5rem;
+}
+
+h1 span{
+    color: var(--blue);
+}

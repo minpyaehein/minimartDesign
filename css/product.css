@@ -1,0 +1,56 @@
+:root{
+    --wht: #F8F0E5;
+    --pink: rgb(240, 95, 95);
+    --blue: #102C57;
+    --org: #DAC0A3;
+}
+
+.cname{
+    margin-top: 50px;
+    padding: 80px 20px;
+    background-color: var(--org);
+    width: 10%;
+    height: 550px;
+    position: fixed;
+}
+
+.cname a{
+    text-decoration: none;
+    display: block;
+    color: var(--blue);
+    font-size: large;
+    margin-top: 50px;
+    background-color: var(--wht);
+    text-align: center;
+    border-radius: 5px;
+    height: 30px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.cname a:hover{
+    background-color: var(--pink);
+}
+
+.c{
+    margin-top: 0;
+    margin-left: 350px;
+    padding-top: 80px;
+    width: 1000px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--pink);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    opacity: 0.8;
+  }
