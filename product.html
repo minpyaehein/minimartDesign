@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <title>Product</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/menu.css" rel="stylesheet"/>
+        <link href="css/product.css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="img/mart.png">
+
+    </head>
+    <body>
+        
+        <header>
+
+            <p class="name"><i class="fa-solid fa-shop"></i> Z-Mart</p>
+
+            <nav>
+                <a href="menu.html">Home</a>
+                <a href="menu.html">Categories</a>
+                <a href="menu.html">Review</a>
+                <a href="menu.html">Contant us</a>
+            </nav>
+
+            <section class="icon">
+                <input type="text" placeholder="Search..."/>
+                <a href="#"><i class="fa fa-solid fa-magnifying-glass"></i></a>
+                <a ><i class="fa-sharp fa-solid fa-cart-shopping" id="cart-btn"></i></a>
+                <a ><i class="fa-solid fa-user" id="pf"></i></a>
+            </section>
+            
+            <div class="cart">
+                <div class="ca">
+                </div>
+
+                <div class="total"> <span>total :</span> <span class="total-price">Ks 0</span></div>
+                <a href="product.html" class="btn" onclick="buy()">Buy Now</a>
+            </div>
+
+            <div class="profile">
+                <div class="pf">
+                <img src="img/user.png" width="300px"/><h2>Hello, Welcome</h2>
+                </div>
+
+                <div class="hr"></div>
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-user"></i><p>Edit Profile</p><span>></span></a>
+
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-gear"></i><p>Settings & Privacy</p><span>></span></a>
+
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-circle-info"></i><p>Help & Support</p><span>></span></a>
+
+                <a href="loginregister.html" class="sub-menu-link"><i class="fa-solid fa-arrow-right-from-bracket"></i><p>Logout</p><span>></span></a>
+            </div>
+
+        </header>
+        <div class="cname">
+            <a href="#kitchen">Kitchen</a>
+            <a href="#electronics">Electronics</a>
+            <a href="#drinks">Drinks</a>
+            <a href="#clothes">Clothes</a>
+            <a href="#beauty">Beauty Products</a>
+        </div>
+
+        <div class="container c" id="kitchen">
+
+            <div class="b">
+
+                <div class="product">Kitchen</div>
+
+                <div class="box">
+                <div class="subbox">
+                    <img src="img/Kitchen/blender.jpg" class="product-img"/>
+                    <div class="pn">Blender</div>
+                    <div class="pr">Ks 15000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/balloon whisk.jpg" class="product-img"/>
+                    <div class="pn">Balloon Whisk</div>
+                    <div class="pr">Ks 5000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/bottle opener.jpg" class="product-img"/>
+                    <div class="pn">Bottle Opener</div>
+                    <div class="pr">Ks 1200</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/bread knife.jpg" class="product-img"/>
+                    <div class="pn">Bread Knife</div>
+                    <div class="pr">Ks 4700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/Chef's knife.jpg" class="product-img"/>
+                    <div class="pn">Chef's Knife</div>
+                    <div class="pr">Ks 5000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/corkscrew.jpg" class="product-img"/>
+                    <div class="pn">Corkscrew</div>
+                    <div class="pr">Ks 3300</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/cutting board.jpg" class="product-img"/>
+                    <div class="pn">Cutting Board</div>
+                    <div class="pr">Ks 2300</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/frying pan.jpg" class="product-img"/>
+                    <div class="pn">Frying Pan</div>
+                    <div class="pr">Ks 8700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/garlic press.jpg" class="product-img"/>
+                    <div class="pn">Garlic Press</div>
+                    <div class="pr">Ks 3700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/grater.jpg" class="product-img"/>
+                    <div class="pn">Grater</div>
+                    <div class="pr">Ks 9600</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/kitchen scales.jpg" class="product-img"/>
+                    <div class="pn">Kitchen Scales</div>
+                    <div class="pr">Ks 26000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/masher.jpg" class="product-img"/>
+                    <div class="pn">Masher</div>
+                    <div class="pr">Ks 4800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/mixing bowl.jpg" class="product-img"/>
+                    <div class="pn">Mixing Bowl</div>
+                    <div class="pr">Ks 2700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/oven gloves.jpg" class="product-img"/>
+                    <div class="pn">Oven Gloves</div>
+                    <div class="pr">Ks 5400</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/ovenproof dish.jpg" class="product-img"/>
+                    <div class="pn">Ovenproof Dish</div>
+                    <div class="pr">Ks 3000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/Paring knife.webp" class="product-img"/>
+                    <div class="pn">Paring Knife</div>
+                    <div class="pr">Ks 8700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/pasta fork.jpg" class="product-img"/>
+                    <div class="pn">Pasta Fork</div>
+                    <div class="pr">Ks 1800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/pizza cutter.jpg" class="product-img"/>
+                    <div class="pn">Pizza Cutter</div>
+                    <div class="pr">Ks 6800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/roasting tin.jpg" class="product-img"/>
+                    <div class="pn">Roasting Tin</div>
+                    <div class="pr">Ks 2800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/rolling pin.jpg" class="product-img"/>
+                    <div class="pn">Rolling Pin</div>
+                    <div class="pr">Ks 5800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/saucepans.jpg" class="product-img"/>
+                    <div class="pn">Saucepans</div>
+                    <div class="pr">Ks 12000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/Scissors.jpg" class="product-img"/>
+                    <div class="pn">Scissors</div>
+                    <div class="pr">Ks 4800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Kitchen/vegetable peeler.jpg" class="product-img"/>
+                    <div class="pn">Vegetable Peeler</div>
+                    <div class="pr">Ks 5500</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container c" id="electronics">
+
+            <div class="b">
+
+                <div class="product">Electronics</div>
+
+                <div class="box">
+                <div class="subbox">
+                    <img src="img/Electronics/15Watts Lightbulb.jpg" class="product-img"/>
+                    <div class="pn">15Watts Lightbulb</div>
+                    <div class="pr">Ks 8000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/40Watts light bulb.jpg" class="product-img"/>
+                    <div class="pn">40Watts Lightbulb</div>
+                    <div class="pr">Ks 10000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Air conditioner.webp" class="product-img"/>
+                    <div class="pn">Air Conditioner</div>
+                    <div class="pr">Ks 230000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/ANKER Bluetooth Speaker.webp" class="product-img"/>
+                    <div class="pn">Anker Bluetooth Speaker</div>
+                    <div class="pr">Ks 15000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Camera(Digital).webp" class="product-img"/>
+                    <div class="pn">Camera(Digital)</div>
+                    <div class="pr">Ks 120000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Camera(DSLR).webp" class="product-img"/>
+                    <div class="pn">Camera(DSLR)</div>
+                    <div class="pr">Ks 230000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Coffee Maker.webp" class="product-img"/>
+                    <div class="pn">Coffee Maker</div>
+                    <div class="pr">Ks 15000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Electric Fan.webp" class="product-img"/>
+                    <div class="pn">Electric Fan</div>
+                    <div class="pr">Ks 35000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Electric Kettle.webp" class="product-img"/>
+                    <div class="pn">Electric Kettle</div>
+                    <div class="pr">Ks 25000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Electric Scooter.webp" class="product-img"/>
+                    <div class="pn">Electric Scooter</div>
+                    <div class="pr">Ks 255000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Ethernet cables.webp" class="product-img"/>
+                    <div class="pn">Electric Cables</div>
+                    <div class="pr">Ks 55000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/GoPro Action Camera.webp" class="product-img"/>
+                    <div class="pn">GoPro Action Camers</div>
+                    <div class="pr">Ks 135000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Hair Dryer.webp" class="product-img"/>
+                    <div class="pn">Hair Dryer</div>
+                    <div class="pr">Ks 25000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/HDMI cables.jpg" class="product-img"/>
+                    <div class="pn">HDMI Cables</div>
+                    <div class="pr">Ks 5000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Home Security Camera.webp" class="product-img"/>
+                    <div class="pn">Home Security Camera</div>
+                    <div class="pr">Ks 85000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Iron(Dry).webp" class="product-img"/>
+                    <div class="pn">Iron(Dry)</div>
+                    <div class="pr">Ks 35000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Iron(Steam).webp" class="product-img"/>
+                    <div class="pn">Iron(Steam)</div>
+                    <div class="pr">Ks 100000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/JBL Bluetooth Speaker.webp" class="product-img"/>
+                    <div class="pn">JBL Bluetooth Speaker</div>
+                    <div class="pr">Ks 135000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Microwave oven.webp" class="product-img"/>
+                    <div class="pn">Microwave Oven</div>
+                    <div class="pr">Ks 374000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Portable Projector.webp" class="product-img"/>
+                    <div class="pn">Portable Projector</div>
+                    <div class="pr">Ks 335000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Power Strip.webp" class="product-img"/>
+                    <div class="pn">Power Strip</div>
+                    <div class="pr">Ks 16000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Rice Cooker.webp" class="product-img"/>
+                    <div class="pn">Rice Cooker</div>
+                    <div class="pr">Ks 225000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/SAMSUNG 50-Inch UHD 4k TV.jpg" class="product-img"/>
+                    <div class="pn">SAMSUNG 50-Inch TV</div>
+                    <div class="pr">Ks 535000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/SanDisk 128GB Memory Card.jpg" class="product-img"/>
+                    <div class="pn">SanDisk 128GB Memory Card</div>
+                    <div class="pr">Ks 25000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Specture 24 inch 1080p TV.jpg" class="product-img"/>
+                    <div class="pn">Specture 24-Inch Tv</div>
+                    <div class="pr">Ks 655000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Toaster Oven.webp" class="product-img"/>
+                    <div class="pn">Toaster Oven </div>
+                    <div class="pr">Ks 135000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Type- C phone charging cables.jpg" class="product-img"/>
+                    <div class="pn">Type-C Phone Charging Cables</div>
+                    <div class="pr">Ks 24000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/USB Flash Drive.jpg" class="product-img"/>
+                    <div class="pn">USB Flash Drive</div>
+                    <div class="pr">Ks 35000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Vacuum Cleaner.webp" class="product-img"/>
+                    <div class="pn">Vacuum Cleaner</div>
+                    <div class="pr">Ks 567000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Washing Machine.jpg" class="product-img"/>
+                    <div class="pn">Washing Machine</div>
+                    <div class="pr">Ks 235000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/WiFi-Range Extender.webp" class="product-img"/>
+                    <div class="pn">WiFi-Range Extender</div>
+                    <div class="pr">Ks 215000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Electronics/Wireless Security Alarm  Kits.webp" class="product-img"/>
+                    <div class="pn">Wireless Security Alarm Kits</div>
+                    <div class="pr">Ks 235000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container c" id="drinks">
+
+            <div class="b">
+
+                <div class="product">Drinks</div>
+
+                <div class="box">
+                <div class="subbox">
+                    <img src="img/Drink/100 plus.jpg" class="product-img"/>
+                    <div class="pn">100 Plus</div>
+                    <div class="pr">Ks 800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Alani.jpg" class="product-img"/>
+                    <div class="pn">Alani</div>
+                    <div class="pr">Ks 600</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Aloevera.jpg" class="product-img"/>
+                    <div class="pn">Aloevera</div>
+                    <div class="pr">Ks 500</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Amazon Energy.jpg" class="product-img"/>
+                    <div class="pn">Amazon Energy</div>
+                    <div class="pr">Ks 1000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Duth Mill.jpg" class="product-img"/>
+                    <div class="pn">Duth Mill</div>
+                    <div class="pr">Ks 1700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/coconut Milk big.jpg" class="product-img"/>
+                    <div class="pn">Coconut Milk big</div>
+                    <div class="pr">Ks 6000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Carabao.jpg" class="product-img"/>
+                    <div class="pn">Carabao</div>
+                    <div class="pr">Ks 1300</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Carlsberg.jpg" class="product-img"/>
+                    <div class="pn">Carlsberg</div>
+                    <div class="pr">Ks 2000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink//BlackLabel.jpg" class="product-img"/>
+                    <div class="pn">BlackLabel</div>
+                    <div class="pr">Ks 50000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/BlueLabel.jpg" class="product-img"/>
+                    <div class="pn">BlueLabel</div>
+                    <div class="pr">Ks 30000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Chang.jpg" class="product-img"/>
+                    <div class="pn">Chang</div>
+                    <div class="pr">Ks 1500</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Cocacola.webp" class="product-img"/>
+                    <div class="pn">Cocacola</div>
+                    <div class="pr">Ks 1200</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Coconut.jpg" class="product-img"/>
+                    <div class="pn">Coconut</div>
+                    <div class="pr">Ks 1000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/cola bottle.jpg" class="product-img"/>
+                    <div class="pn">Cola Bottle</div>
+                    <div class="pr">Ks 1000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Fanta.jpg" class="product-img"/>
+                    <div class="pn">Fanta</div>
+                    <div class="pr">Ks 1400</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Fullmoon rose.jpg" class="product-img"/>
+                    <div class="pn">Fullmoon Rose</div>
+                    <div class="pr">Ks 2800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Fullmoon yellow.jpg" class="product-img"/>
+                    <div class="pn">Fullmoon Yellow</div>
+                    <div class="pr">Ks 3000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Green Tea.jpg" class="product-img"/>
+                    <div class="pn">Green Tea</div>
+                    <div class="pr">Ks 900</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Heineken.jpg" class="product-img"/>
+                    <div class="pn">Heineken</div>
+                    <div class="pr">Ks 4000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Jagermeister.jpg" class="product-img"/>
+                    <div class="pn">Jagermeister</div>
+                    <div class="pr">Ks 48000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Lion.jpg" class="product-img"/>
+                    <div class="pn">Lion</div>
+                    <div class="pr">Ks 1200</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/M-150.jpg" class="product-img"/>
+                    <div class="pn">M-150</div>
+                    <div class="pr">Ks 800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink//Milo.jpg" class="product-img"/>
+                    <div class="pn">Milo</div>
+                    <div class="pr">Ks 1300</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Oishi grape.jpg" class="product-img"/>
+                    <div class="pn">Oishi Grape</div>
+                    <div class="pr">Ks 1000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Oishi honey.png" class="product-img"/>
+                    <div class="pn">Oishi Honey</div>
+                    <div class="pr">Ks 1000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Redlabel.jpg" class="product-img"/>
+                    <div class="pn">RedLabel</div>
+                    <div class="pr">Ks 3000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Royal-D.jpg" class="product-img"/>
+                    <div class="pn">Royal-D</div>
+                    <div class="pr">Ks 1200</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Shark.Jpg" class="product-img"/>
+                    <div class="pn">Shark</div>
+                    <div class="pr">Ks 1500</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Sponsor.jpg" class="product-img"/>
+                    <div class="pn">Sponsor</div>
+                    <div class="pr">Ks 1600</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Sting.jpg" class="product-img"/>
+                    <div class="pn">Sting</div>
+                    <div class="pr">Ks 800</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/v code black.jpg" class="product-img"/>
+                    <div class="pn">V Code Black</div>
+                    <div class="pr">Ks 700</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Drink/Water.jpg" class="product-img"/>
+                    <div class="pn">Water</div>
+                    <div class="pr">Ks 500</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container c" id="clothes">
+
+            <div class="b">
+
+                <div class="product">Clothes</div>
+
+                <div class="box">
+                <div class="subbox">
+                    <img src="img/cloths/130-1302611_girl-in-women-clothes-png-women-dress-png.png" class="product-img"/>
+                    <div class="pn">Dress</div>
+                    <div class="pr">Ks 24000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/136-1369965_champion-sweater-sweatshirt-sticker-png-freetoedit-leggings-lazy.png" class="product-img"/>
+                    <div class="pn">Sweater</div>
+                    <div class="pr">Ks 12000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/137-1370613_aesthetic-aesthetictumblr-sweater-png-niche-freetoedit-vintage-aesthetic.png" class="product-img"/>
+                    <div class="pn">Sweater</div>
+                    <div class="pr">Ks 15000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/137-1378702_transparent-aesthetic-clothes-png.png" class="product-img"/>
+                    <div class="pn">Sweater</div>
+                    <div class="pr">Ks 10000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/crop-top-hoodies-500x500.jpg" class="product-img"/>
+                    <div class="pn">Hoodie</div>
+                    <div class="pr">Ks 23000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/flannel-shirt-on-a-white-background-view-from-above-2FJXKDE.jpg" class="product-img"/>
+                    <div class="pn">Shirt</div>
+                    <div class="pr">Ks 16000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/men-s-casual-clothes-accessories-shirt-t-shirt-jeans-isolated-white-background_142957-1129.jpg" class="product-img"/>
+                    <div class="pn">Shirt</div>
+                    <div class="pr">Ks 18000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/women-crop-top-hoodies-500x500.jpg" class="product-img"/>
+                    <div class="pn">Hoodie</div>
+                    <div class="pr">Ks 14000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/beautiful-elegant-evening-women-s-dress-white-background_236836-20493.jpg" class="product-img"/>
+                    <div class="pn">Dress</div>
+                    <div class="pr">Ks 120000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/cloths/627-6277016_designer-clothes-shoes-bags-for-women-men-knitted.png" class="product-img"/>
+                    <div class="pn">Sweater</div>
+                    <div class="pr">Ks 20000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container c" id="beauty">
+
+            <div class="b">
+
+                <div class="product">Beauty Products</div>
+
+                <div class="box">
+                <div class="subbox">
+                    <img src="img/Beauty product/bd serum.jpg" class="product-img"/>
+                    <div class="pn">BD Serum</div>
+                    <div class="pr">Ks 35000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/Chanel.jpg" class="product-img"/>
+                    <div class="pn">Chanel</div>
+                    <div class="pr">Ks 22000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/dior eyeliner.webp" class="product-img"/>
+                    <div class="pn">Dior Eyeliner</div>
+                    <div class="pr">Ks 5000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/dior makeup.webp" class="product-img"/>
+                    <div class="pn">Dior Makeup</div>
+                    <div class="pr">Ks 15000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/eyeliners.jpg" class="product-img"/>
+                    <div class="pn">Eyeliners</div>
+                    <div class="pr">Ks 12000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/face cream.jpg" class="product-img"/>
+                    <div class="pn">Face Cream</div>
+                    <div class="pr">Ks 23000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/face wash.jpg" class="product-img"/>
+                    <div class="pn">Face Wash</div>
+                    <div class="pr">Ks 8000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/hair oil.webp" class="product-img"/>
+                    <div class="pn">Hair Oil</div>
+                    <div class="pr">Ks 12000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/hair serum.webp" class="product-img"/>
+                    <div class="pn">Hair Serum</div>
+                    <div class="pr">Ks 32000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/hand cream.webp" class="product-img"/>
+                    <div class="pn">Hand Cream</div>
+                    <div class="pr">Ks 10000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/leg serum.jpg" class="product-img"/>
+                    <div class="pn">Leg Serum</div>
+                    <div class="pr">Ks 28000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/nail color.jpg" class="product-img"/>
+                    <div class="pn">Nail Color</div>
+                    <div class="pr">Ks 3000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/nail polish.webp" class="product-img"/>
+                    <div class="pn">Nail Polish</div>
+                    <div class="pr">Ks 7000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/Nivea.jpg" class="product-img"/>
+                    <div class="pn">Nivea</div>
+                    <div class="pr">Ks 20000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/sunscreen.webp" class="product-img"/>
+                    <div class="pn">Sun Cream</div>
+                    <div class="pr">Ks 42000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/toner.png" class="product-img"/>
+                    <div class="pn">Toner</div>
+                    <div class="pr">Ks 20000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/Vaseline.jpg" class="product-img"/>
+                    <div class="pn">Vaseline</div>
+                    <div class="pr">Ks 8000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/wow face wash.webp" class="product-img"/>
+                    <div class="pn">WOW Face Wash</div>
+                    <div class="pr">Ks 22000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/YSL l1.webp" class="product-img"/>
+                    <div class="pn">YSL L1</div>
+                    <div class="pr">Ks 20000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/YSL l2.webp" class="product-img"/>
+                    <div class="pn">YSL L2</div>
+                    <div class="pr">Ks 22000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/YSL l3.webp" class="product-img"/>
+                    <div class="pn">YSL L3</div>
+                    <div class="pr">Ks 24000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+
+                <div class="subbox">
+                    <img src="img/Beauty product/YSL makeup.webp" class="product-img"/>
+                    <div class="pn">YSL Makeup</div>
+                    <div class="pr">Ks 32000</div>
+                    <button class="add">Add To Cart</button>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <marquee>!!!All sales are up to 30% off!!!</marquee>
+        </div>
+        
+        <script type="text/javascript" src="javascript/menu.js"></script>
+    </body>
+</html>

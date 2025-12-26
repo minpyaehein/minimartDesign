@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <title>Z-Mart</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/menu.css" rel="stylesheet"/>
+        <link rel="icon" type="image/png" href="img/mart.png">
+    
+    </head>
+    <body>
+        
+        <header>
+
+            <p class="name"><i class="fa-solid fa-shop"></i> Z-Mart</p>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#category">Categories</a>
+                <a href="#review">Review</a>
+                <a href="#contant">Contant us</a>
+            </nav>
+
+            <section class="icon">
+                <input type="text" placeholder="Search..."/>
+                <a href="#"><i class="fa fa-solid fa-magnifying-glass"></i></a>
+                <a ><i class="fa-sharp fa-solid fa-cart-shopping" id="cart-btn"></i></a>
+                <a ><i class="fa-solid fa-user" id="pf"></i></a>
+            </section>
+            
+            <div class="cart">
+                <div class="ca">
+                </div>
+
+                <div class="cartfooter">
+                <div class="total"> <span>total :</span> <span class="total-price">Ks 0</span></div>
+                <a href="menu.html" class="btn" onclick="buy()">Buy Now</a>
+                </div>
+            </div>
+
+            <div class="profile">
+                <div class="pf">
+                <img src="img/user.png" width="300px"/><h2>Hello, Welcome</h2>
+                </div>
+
+                <div class="hr"></div>
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-user"></i><p>Edit Profile</p><span>></span></a>
+
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-gear"></i><p>Settings & Privacy</p><span>></span></a>
+
+                <a href="#" class="sub-menu-link"><i class="fa-solid fa-circle-info"></i><p>Help & Support</p><span>></span></a>
+
+                <a href="loginregister.html" class="sub-menu-link"><i class="fa-solid fa-arrow-right-from-bracket"></i><p>Logout</p><span>></span></a>
+            </div>
+
+        </header>
+        
+        <div class="menu">
+        <div class="home"> 
+            <img src="https://73lines.com/website_73lines/static/src/img/odoo-services/ecommerce-development-img.svg" width="700px"/>
+            <p>Welcome to Z-Mart</p>
+        </div>
+
+        <div class="category" id="category">
+            
+            <h1 class="cata">PRODUCT <span>CATEGORIES</span></h1>
+            <div class="swiper crop box">
+                <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide bb">
+                        <h1>Kitchen</h1>
+                        <img src="img/Kitchen/frying pan.jpg" class="product-img"/>
+                        <div class="pn">Frying Pan</div>
+                        <a href="product.html"><button class="shop">shop now</button></a>
+                    </div>
+
+                    <div class="swiper-slide bb">
+                        <h1>Electronics</h1>
+                        <img src="img/Electronics/Air conditioner.webp" class="product-img"/>
+                        <div class="pn">Air Conditioner</div>
+                        <a href="product.html"><button class="shop">shop now</button></a>
+                    </div>
+
+                    <div class="swiper-slide bb">
+                        <h1>Drinks</h1>
+                        <img src="img/Drink/Carabao.jpg" class="product-img"/>
+                            <div class="pn">Carabao</div>
+                            <a href="product.html"><button class="shop">shop now</button></a>
+                        </div>
+
+                    <div class="swiper-slide bb">
+                        <h1>Clothes</h1>
+                        <img src="img/cloths/crop-top-hoodies-500x500.jpg" class="product-img"/>
+                            <div class="pn">Hoodie</div>
+                            <a href="product.html"><button class="shop">shop now</button></a>
+                        </div>
+
+                    <div class="swiper-slide bb">
+                        <h1>Beauty Products</h1>
+                        <img src="img/Beauty product/Chanel.jpg" class="product-img"/>
+                            <div class="pn">Chanel</div>
+                            <a href="product.html"><button class="shop">shop now</button></a>
+                        </div>
+
+                        <div class="swiper-slide"></div>        
+
+                </div>
+                                
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </div>
+
+           <section class="review" id="review">
+
+                <h1 class="heading"> CUSTOMER <span>REVIEWS</span> </h1>
+
+                <div class="review-slider">
+                 
+                        <div class="rbox">
+                            <img src="img/profile/hlk.webp"/>
+                            <p>I recently had the pleasure of visiting the local Super Mart, and I must say. From the moment I stepped through the entrance, I was impressed by the store's organized layout and vibrant atmosphere.</p>
+                        <h3>Htet Lin Kyaw</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                        <div class="rbox">
+                            <img src="img/profile/wkkt.jpg"/>
+                            <p>The first thing that caught my attention was the fresh produce section. The fruits and vegetables were impeccably arranged, and their quality was exceptional.</p>
+                        <h3 style="margin-top: 30px">Win Ko Ko Tun</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+
+                        <div class="rbox">
+                            <img src="img/profile/hwa.jpg"/>
+                            <p>Moving on, the store's commitment to customer convenience was evident in its thoughtfully designed aisles. The signage was clear, making it easy to locate specific products.
+                            </p>
+                        <h3 style="margin-top: 30px;">Htet Wai Aung</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-alt"></i>
+                        </div>
+                    </div>
+
+                    
+                        <div class="rbox">
+                            <img src="img/profile/mph.jpg"/>
+                            <p>What sets the Super Mart apart is its dedication to providing more than just groceries. The in-store bakery and deli offered a tempting selection of freshly baked goods and gourmet treats.</p>
+                        <h3 style="margin-top: 30px;">Nyan Htet</h3>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                  
+
+                </div>
+
+           </section>
+
+           <section class="contant" id="contant">
+            <div class="box-container">
+                <div class="box">
+                    <h3><i class="fa-solid fa-shop"></i> Z-Mart</h3>
+                    <p>Welcome to Z-Mart.com.mm, your reliable and convenient Online Shopping Mall in Myanmar. Get ready as Z-Mart.com.mm empowers you to let loose your shopaholic beast and go on a crazy online shopping spree like never before.</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3>Contact info</h3>
+                   <a href="#" class="links"><i class="fas fa-phone"></i> +95-123-456-7890</a>
+                   <a href="#" class="links"><i class="fas fa-phone"></i> +95-098-765-4321</a>
+                   <a href="#" class="links"><i class="fas fa-envelope"></i> zmart123@gmail.com</a>
+                   <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Thaton,Mon,Myanmar</a>
+                </div>
+
+                <div class="box">
+                    <h3>Quick links</h3>
+                  <div class="team">
+                    <a href="#" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+                    <a href="#category" class="links"><i class="fas fa-arrow-right"></i> Categories</a>
+                    <a href="#review" class="links"><i class="fas fa-arrow-right"></i> Review</a>
+                    <a href="#contant" class="links"><i class="fas fa-arrow-right"></i> Contant us</a>
+                    <a href="team.html" class="links"><i class="fas fa-arrow-right"></i> Team members</a>
+                  </div>
+                </div>
+
+                <div class="box">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe For Latest Updates</p>
+                    <input type="email" placeholder="your email" class="email" />
+                    <input type="submit" value="Subscribe" class="sub" />
+                </div>
+
+            </div>
+
+           </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script type="text/javascript" src="javascript/menu.js"></script>
+        <script type="text/javascript" src="javascript/login.js"></script>
+
+    </body>
+</html>
